@@ -1,14 +1,8 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
+import Timer from './Components'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-      
-      </div>
-    );
-  }
-}
+const App = props => (
+  <Timer />
+)
 
 export default App;
